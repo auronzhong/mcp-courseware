@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# FastMCP
+.fastmcp/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+pytest_cache/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Generated content
+generated_images/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Dependency files
+uv.lock
